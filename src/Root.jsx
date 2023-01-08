@@ -26,7 +26,7 @@ export const Root = () => {
                 </div>
             </section>
             <footer>
-                <p>See issue on Github</p>
+                <p>See issue on <a href="https://github.com/Auroratide/react-pdf-annotation-rotation">Github</a></p>
             </footer>
         </main>
     )
