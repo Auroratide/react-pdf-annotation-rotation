@@ -2,9 +2,10 @@
   "name": "react-pdf-rotations",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "source": "src/index.html",
   "scripts": {
-    "start": "parcel -p 3000 src/index.html"
+    "start": "parcel -p 3000 src/index.html",
+    "build": "parcel build"
   },
   "keywords": [],
   "author": "",

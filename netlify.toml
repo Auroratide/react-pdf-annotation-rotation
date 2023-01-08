@@ -1,0 +1,6 @@
+[Settings]
+  ID = "react-pdf-annotation-rotation"
+
+[build]
+  command = "pnpm build"
+  publish = "dist"
