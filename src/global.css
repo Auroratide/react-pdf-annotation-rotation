@@ -1,0 +1,34 @@
+:root {
+    --font: 'Source Sans Pro', sans-serif;
+
+    --color-bg: hsl(0, 0, 100%);
+}
+
+body {
+    background-color: var(--color-bg);
+    font-family: var(--font);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 1rem;
+}
+
+main > section {
+    padding-block: 2rem;
+}
+
+.react-pdf__Page__canvas {
+    border: 1px solid gray;
+    margin-block-end: 1rem;
+}
+
+.annotationLayer .linkAnnotation > a,
+.annotationLayer .buttonWidgetAnnotation.pushButton > a {
+    background: hsla(0, 100%, 50%, 0.15);
+}

@@ -1,0 +1,29 @@
+{
+  "name": "react-pdf-rotations",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel -p 3000 src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "buffer": "5.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-pdf": "^6.2.1"
+  },
+  "devDependencies": {
+    "@parcel/config-default": "^2.8.2",
+    "@parcel/core": "^2.8.2",
+    "parcel": "^2.8.2",
+    "parcel-reporter-static-files-copy": "^1.5.0"
+  },
+  "alias": {
+    "process": {
+      "global": "{}"
+    }
+  }
+}
